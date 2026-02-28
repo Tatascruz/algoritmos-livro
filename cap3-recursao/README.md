@@ -14,14 +14,39 @@ Sem um caso base a função entra em chamadas infinitas,
 
 ---
 
-## Estrutura Geral de uma Função Recursiva
+## Conceitos aprendidos
+
+- Caso base 
+- Chamadas recursivas
+- Pilhas de execusão (call stack)
+
+## Exemplo implementados
+
+## Contagem Recursiva
 
 ```go
-func Exemplo(n int) {
-    if condicaoBase {
-        return
+func ContarRecursivo(lista [] int) {
+    if len(lista) == 0 {
+        return 0
     }
 
-    Exemplo(n - 1)
+    return 1 + ContarRecursivo(lista[1:])
 }
+```
+Este exemplo mostra como contar elementos de uma lista usando recursão.
 
+## Visualização da pilha 
+
+Descendo:
+
+Descendo: 2
+Descendo: 1
+Chegou no caso base (0)
+
+Subindo:
+
+Subindo: 2
+Subindo: 1
+Fim da execusão
+
+Isso mostra como a função entra e sai da pilha de execução.
