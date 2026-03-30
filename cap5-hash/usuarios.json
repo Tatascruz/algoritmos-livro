@@ -1,0 +1,17 @@
+{
+"anna": {
+"nome": "Anna",
+"email": "anna@email.com",
+"idade": 18
+},
+"laura": {
+"nome": "Laura",
+"email": "laura@email.com",
+"idade": 17
+},
+"tata": {
+"nome": "Tata",
+"email": "tata@email.com",
+"idade": 40
+}
+}
